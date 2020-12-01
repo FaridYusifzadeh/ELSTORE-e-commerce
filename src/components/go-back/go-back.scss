@@ -1,0 +1,20 @@
+.redirect__page{
+ display: flex;
+ align-items: center;
+ padding-top: 48px;
+ padding-left: 61px;
+ span{
+     margin-right: 4px;
+ }
+ .rediretc__text{
+     font-family: InterRegular;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 150%;
+     letter-spacing: 0.5px;
+     text-transform: uppercase;
+     color: #1A1A1A;
+     text-decoration: none;
+ }
+}

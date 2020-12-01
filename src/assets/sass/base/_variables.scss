@@ -1,0 +1,141 @@
+@font-face{
+    font-family: 'NotoBold';
+    src:url('../../fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+}
+
+
+@font-face{
+    font-family: 'NotoBoldItalic';
+    src:url('../../fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype');
+}
+
+
+
+@font-face{
+    font-family: 'NotoItalic';
+    src:url('../../fonts/Roboto/Roboto-Italic.ttf') format('truetype');
+}
+
+
+
+@font-face{
+    font-family: 'NotoRegular';
+    src:url('../../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+
+@font-face{
+    font-family: 'InterMedium';
+    src:url('../../fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+}
+
+
+@font-face{
+    font-family: 'InterBold';
+    src:url('../../fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+}
+
+
+// @font-face{
+//     font-family: 'InterRegular';
+//     src:url('../../fonts/Inter/static/Inter-Regular-slnt=0.ttf') format('truetype');
+// }
+
+@font-face{
+    font-family: 'InterRegular';
+    src:url('../../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+// background colors 
+$bg: ("primary": #6472B8, "primary--light": #929DD2, "primary--dark": #354388,"white":#ffffff);
+
+$primary: #6472B8;
+$primary--light: #929DD2;
+$primary--dark: #354388;
+$white:#ffffff;
+
+// text colors 
+$text: ("light": #fff, "dark": #1A1A1A, "secondary": #444444,"tertiary":#767676,"error":#E0322C,"success":#348E39,"primary":#6472B8);
+
+$text-light:#fff;
+$text-dark:#1A1A1A;
+$text-secondary:#444444;
+$text-tertiary:#767676;
+$text-error:#E0322C;
+$text-success:#348E39;
+
+// Gray scale
+$gray: ("main": #CCCCCC, "light": #F1F1F1, "dark": #808080);
+// Chips colors
+$chips: ("orange": #FFFAE7, "red": #FFEDED);
+
+
+// Border radius sizes
+$border__radius: ("big": 8px, medium: 6px,"small": 4px);
+
+// Border  sizes
+
+$border: ("bold":1.5px,"medium":1px,"light":0.5px);
+
+
+//Spancing
+$margin:('bottom-sm':9px,'bottom-md':12px,'bottom-lg':15px);
+$margin:('left-sm':9px,'left-md':12px,'left-lg':15px);
+$margin:('right-sm':9px,'right-md':12px,'right-lg':15px);
+$margin:('top-sm':9px,'top-md':12px,'top-lg':15px);
+
+// Margin variables
+$margin--sm:9px;
+$margin--md:12px;
+$margin--lg:15px;
+
+
+
+
+//padding
+$padding:('bottom-sm':9px,'bottom-md':12px,'bottom-lg':15px);
+$padding:('left-sm':9px,'left-md':12px,'left-lg':15px);
+$padding:('right-sm':9px,'right-md':12px,'right-lg':15px);
+$padding:('top-sm':9px,'top-md':12px,'top-lg':15px);
+
+
+// Heading
+$head--1: 89.7642px;
+$head--2: 67.34px;
+$head--3: 50.52px;
+$head--4: 37.9px;
+$head--5: 28.43px;
+$head--6: 21.33px;
+$title__font: 28px;
+$subtitle--L:18px;
+$subtitle--1S:16px;
+$subtitle--2S:14px;
+$button__font:16px;
+
+
+// Spacing
+$letter__spacing: 0.15px;
+
+$font__weight--normal:normal;
+$font__weight--500:500;
+$font__weight--600:600;
+$font__weight--700:700;
+$font__weight--bold:bold;
+
+
+//line height
+$line__height:150%;
+
+//Font 
+$text__font: "Inter";
+$head__font:'Noto Serif';
+
+// Breakpoints 
+$grid-breakpoints:('xs': 0, 'sm': 360px, 'md': 900px,'lg': 1280px);
+
+$fluid_padding:32px;
+$fluid_padding--sm:16px;
+$col_padding:12px;

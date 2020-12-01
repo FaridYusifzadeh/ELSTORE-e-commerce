@@ -1,0 +1,62 @@
+
+@import '../../App.scss';
+
+
+.about__product__section{
+    margin-top: 34px;
+    width: 95%;
+    .about__product__title{
+        border-bottom: 1px solid black;
+        width: 183px;
+        h4{
+            font-size: $subtitle--L;
+            font-family: InterMedium;
+            font-weight: $font__weight--500;
+            letter-spacing: 0.25px;
+            margin-bottom: 0;
+             color: #1A1A1A;
+        }
+        margin-bottom: 11px;
+    }
+    .about__product__content{
+        p{
+            font-size: $subtitle--1S;
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: $font__weight--normal;
+            letter-spacing: 0.15px;
+            line-height: 200%;
+            color:  #444444;
+            word-break: break-word;
+        }
+    }
+    button{
+        font-family: InterRegular;
+        font-size: $subtitle--2S;
+        font-weight: $font__weight--500;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        display: none;
+        border: none;
+        background-color: transparent;
+        color: #6472B8;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width:768px){
+
+}
+
+@media (max-width:576px){
+    .about__product__section{
+        width: 100% !important;
+        .about__product__content{
+            height: 100px;
+            overflow: hidden;
+        }
+            button{
+                display: block;
+            }
+    }
+}

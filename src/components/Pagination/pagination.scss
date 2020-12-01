@@ -1,0 +1,32 @@
+.pagenation{
+    margin-top:10px;
+    ul{
+        display: flex;
+       
+        li{
+            margin-left: 16px;
+            padding-left: 17px;
+            padding-top: 9px;
+            list-style: none;
+            width: 44px;
+            height: 44px;
+            background: #F1F1F1;
+            border-radius: 50%;
+            font-family: InterRegular;
+            outline: none;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: #444444;
+            cursor: pointer;
+            
+        }
+        
+    }
+}
+.activ{
+    background: #6472B8 !important;
+}

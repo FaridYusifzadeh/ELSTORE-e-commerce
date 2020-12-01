@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "NotoBold";
+  src: url("../../fonts/Noto_Serif/NotoSerif-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NotoBoldItalic";
+  src: url("../../fonts/Noto_Serif/NotoSerif-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NotoItalic";
+  src: url("../../fonts/Noto_Serif/NotoSerif-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NotoRegular";
+  src: url("../../fonts/Noto_Serif/NotoSerif-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "InterMedium";
+  src: url("../../fonts/Inter/static/Inter-Medium-slnt=0.ttf") format("truetype");
+}
+@font-face {
+  font-family: "InterBold";
+  src: url("../../fonts/Inter/static/Inter-Bold-slnt=0.ttf") format("truetype");
+}
+@font-face {
+  font-family: "InterRegular";
+  src: url("../../fonts/Inter/static/Inter-Regular.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}

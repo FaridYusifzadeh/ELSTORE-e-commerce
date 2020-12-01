@@ -1,0 +1,105 @@
+.accordion_lang {
+    color: #fafafa;
+    cursor: pointer;
+    // padding: 18px;
+   
+    display: flex;
+    width: 100%;
+    border: none;
+    text-align: left;
+    width: 40px;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    .accordion_next{
+      margin-left: 4px;
+      margin-top: -2px;
+  }
+        
+    }
+  
+  .bottom_hr_accordion{
+    border-bottom: 0.5px solid #D6D6D6;
+    height: 0.5px;
+    width: 100%;
+  }
+  .accordion_select{
+    // box-sizing: border-box;
+    // border-radius: 8px;
+    .select_box_content::after{
+        display: none !important;
+      }
+    select {
+        // width: 50px!important;
+        background-color: #32478A;
+        height:40px ;
+        font-size: 15px;
+        border: 0px solid transparent !important;
+        color: white !important;
+        -webkit-appearance: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        option{
+          color: black;
+        }
+    }
+  }
+
+  // .accordion_select::after{
+  //   content: url('../../assets/images/Icon.svg');
+  //   position: absolute;
+  //   right: 15px;
+  //   top: 7px;
+  //   pointer-events: none;
+  // }
+ 
+
+  .select_border{
+    padding: 16px 12px;
+    padding: 10px;
+    font-size: 17px;
+    border: 0;
+    float: left;
+    width: 100%;
+    
+    box-sizing: border-box;
+    border-radius: 8px;
+    
+    position: relative;
+    top: -24px;
+    z-index:2;
+  }
+ 
+  
+  .accordion_lang:after {
+    content: '';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    background-color: white;
+  }
+  
+  .active:after {
+    content: "";
+  }
+  
+  .panel_lang {
+      position: relative;
+    top: 10px;
+    // padding: 0 18px;
+  
+    height: 0;
+    overflow: hidden;
+    transition: height 0.2s ease-out;
+  }
+  
+  .accordion_select{
+    //  position: relative;
+    //  top: 2px;
+    //  width: 25%;
+  }
+
+.active_panel{
+    height:200px;
+    overflow: hidden;
+  }

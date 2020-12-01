@@ -1,0 +1,39 @@
+.search_re{
+    width: 241px;
+    height: 44px;
+}
+.select_box_content{
+    position: relative;
+}
+select{
+    width: 100%;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #444444;
+    box-sizing: border-box;
+    border-radius: 8px;
+    outline: none;
+    font-family: InterRegular;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding-left: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 31px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    option{
+        background-color: white;
+        height: 50px !important;
+    }
+}
+
+.select_box_content::after{
+    content: url('../../assets/images/Icon.svg');
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    pointer-events: none;
+}

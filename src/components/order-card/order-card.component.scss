@@ -1,0 +1,104 @@
+@import '../../App.scss';
+
+.card_profile-flex{
+    display: flex;
+    transition: 0.5s;
+    border-bottom: 1px solid #D6D6D6;
+    padding-bottom: 15px;
+}
+
+.basket_card_profile_img{
+    width: 156px;
+    height: 156px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    margin-right: 12px;
+    transition: 0.5s;
+}
+.baskert_card_profile_header{
+    font-family: 'NotoBold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    transition: 0.5s;
+    line-height: 160%;
+    color: $text-dark;
+}
+.basket_profile_button{
+    margin-left: -3px;
+    transition: 0.5s;
+    margin-top: 37px;
+}
+.baskert_card_profile_price{
+font-family: 'InterRegular';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 150%;
+transition: 0.5s;
+letter-spacing: 0.25px;
+color: $text-secondary;
+}
+.text_profile_iconcard{
+    margin-top: 40px;
+    font-family: 'InterRegular';
+    font-style: normal;
+    transition: 0.5s;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #444444;
+    img{
+        width: 14px !important;
+        height: 11px !important;
+
+    }
+}
+
+
+@media(max-width:552px){
+    .text_profile_iconcard{
+        margin-top:65px;
+        transition: 0.5s;
+        font-family: 'InterRegular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: #444444;
+        
+    } 
+    .baskert_card_profile_header{
+        font-size: 18px;
+    }
+    .baskert_card_profile_price{
+        font-size: 18px;
+    }
+}
+
+@media(max-width:458px){
+    .text_profile_iconcard{
+        margin-top:38px;
+        
+    } 
+    
+}
+
+@media(max-width:336px){
+    .card_profile-flex{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        .text_profile_iconcard{
+            margin:0 auto;
+        }
+    }
+    
+}

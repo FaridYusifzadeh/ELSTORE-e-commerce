@@ -1,0 +1,44 @@
+@import '../../App.scss';
+
+.left_side__image__content{
+    padding: 5px;
+    position: relative;
+    // float: left;
+    width: 197px;
+    height: 197px;
+    img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .left_side__overflow{
+        position: absolute; 
+        bottom: 0; 
+        background: rgb(0, 0, 0);
+        background: rgba(241, 241, 241, 0.7); /* Black see-through */
+        color: #f1f1f1; 
+        width: 100%;
+        opacity:1;
+        color: white;
+        font-size: 20px;
+        padding: 15px;
+        text-align: center;
+        margin: 0;
+        cursor: pointer;
+        color: #444444;
+        font-family: InterRegular;
+        font-size: $subtitle--2S;
+        font-weight: $font__weight--500;
+    }
+    .left_side__overflow:hover{
+        outline: none;
+        border: none;
+    }
+}
+
+
+.middle_side-height{
+    height: 81px;
+}

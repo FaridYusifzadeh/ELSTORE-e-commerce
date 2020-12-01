@@ -1,0 +1,36 @@
+@import '../../assets/sass/base/variables';
+.my-card{
+ width: 100%;
+ height: auto;
+ padding: 24px;
+ box-sizing: border-box;
+border-radius: 12px;
+background-color: white;
+ .card-header{
+   margin-bottom: 15px;
+  h5{
+  height: 30px;
+  width: auto;
+   font-size: 20px;
+   font-weight: $font__weight--500;
+   font-family: $text__font;
+   color: $text-dark;
+   font-family: 'InterRegular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+  }
+
+
+}
+}
+.card-shadow{
+ box-shadow: 0px 8px 10px rgba(119, 126, 148, 0.15), 0px 0px 10px rgba(119, 126, 148, 0.15);
+}
+.card-border{
+  border: 1px solid #D6D6D6;
+}
+.padding-zero{
+  padding: 0px;
+}

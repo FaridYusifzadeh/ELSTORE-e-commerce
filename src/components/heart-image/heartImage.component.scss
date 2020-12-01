@@ -1,0 +1,23 @@
+.hearts_icon{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    z-index:1;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    img:last-child{
+        display: block;
+    }
+}
+.d-b{
+    display: block;
+}
+.d-n{
+    display: none;
+}

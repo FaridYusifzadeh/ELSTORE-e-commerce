@@ -1,0 +1,65 @@
+@import '../App.scss';
+
+.faq_title{
+    h1{
+        font-size: 31.25px;
+        font-family: InterMedium;
+        font-weight: 500;
+    }
+}
+.faq_accordion{
+    .accordion {
+        color: #444;
+        cursor: pointer;
+        padding: 18px 0;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 20px;
+        transition: 0.4s;
+        background-color: white;
+        font-family: InterMedium;
+        font-weight: 500;
+    }
+    .accordion::before{
+        content: url('../assets/images/Icon.svg');
+        padding-right: 10px;
+    }
+    .panel {
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        border-bottom: 1px solid #D0D0D0;
+        p{
+        padding-bottom: 20px;
+        font-family: InterRegular;
+        font-size: 16px;
+        font-weight: normal;
+        }
+    }
+}
+
+ 
+// .active, .accordion:hover {
+//     background-color: #32478A;
+//     color: white;
+// }
+
+
+@media only screen and (min-device-width: 376px) and (max-device-width: 414px){
+    .faq_title{
+        h1{
+            font-size: 25px;
+        }
+    }
+}
+
+@media only screen and (max-device-width: 375px){
+    .faq_title{
+        h1{
+            font-size: 20px;
+        }
+    }
+}

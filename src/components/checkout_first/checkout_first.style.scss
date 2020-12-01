@@ -1,0 +1,74 @@
+@import '../../App.scss';
+.checkout_header{
+    display: flex;
+    justify-content: space-around;
+}
+.badge_href{
+    width: 100%;
+    border: 0.5px solid #767676;
+    height: 0;
+    position: relative;
+    top: 17px;
+}
+
+.checkout_bottomcardtext{
+    margin-top: 30px;
+    h5{
+        font-family: 'InterRegular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.25px;
+        color: #1A1A1A;
+    }
+}
+
+.goBasket{
+    img{
+        transform: rotate(180deg);
+        position: relative;
+        height: 10px;
+    }
+    font-family: 'InterRegular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.complateordertxt{
+    font-family: 'InterRegular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31.25px;
+    line-height: 150%;
+    letter-spacing: 0.25px;
+    color: #1A1A1A;
+}
+
+.selectboxcheckout{
+    select {
+        width: 100% !important;
+        height: 44px;
+        border: 1px solid #444444 !important;
+        padding-right: 34px;
+    }
+}
+
+// .selectboxcheckout::after{
+//     content: url('../../assets/images/Icon.svg');
+//     position: absolute;
+//     right: 30px;
+//     top: 12px;
+//     pointer-events: none;
+// }
+.alertext{
+    font-size: 14px;
+    color: red;
+    margin-left: 10px;
+}

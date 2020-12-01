@@ -1,0 +1,129 @@
+@import '../../App.scss';
+
+.inputForm{
+    flex: 0.7;
+    &:focus-within{
+        label{
+            color: #6472B8;
+        }
+
+    }
+    &_helpcontainer{
+        display: flex;
+        padding: 0 10px;
+        justify-content: space-between;
+        .inputForm_helper_text{
+            color: red;
+        }
+    }
+    .inputForm_input{
+        background: #FFFFFF;
+        border: 1px solid #444444;
+        box-sizing: border-box;
+        border-radius: 8px;
+        height: 48px;
+        padding: 16px;
+        width: 100%;
+        background-size: 30px 30px;
+        padding-right: 45px;
+         
+        &:focus{
+            outline: none !important; 
+            border: 2px solid #6472B8;
+        
+
+        }
+        &:hover{
+            border: 2px solid $text-dark;
+            transition: 0.5s all ease-in;
+        }
+        
+        
+    }
+    &_label{
+        font-family: 'InterRegular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        position: relative;
+        top: 12px;
+        left: 16px;
+        z-index: 2;
+        width: max-content;
+        background-color: white;
+        
+    }
+}
+
+.inputForm_icon{
+    position: absolute;
+    right: 20px;
+    top: 14px;
+    width:20px;
+    height: 20px;
+    border: 0 !important;
+    img{
+
+        border: 0 !important; 
+        // object-fit: cover;
+        // object-position: center;
+    }
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.inputForm_iconcontainer{
+    position: relative;
+}
+
+
+@media only screen and (min-device-width : 321px) and (max-device-width : 360px) {
+    .surname{
+        margin-top: 22px !important;
+    }
+}
+
+@media only screen and (min-device-width : 361px) and (max-device-width : 375px) {
+    .surname{
+        margin-top: 22px !important;
+    }
+}
+
+@media only screen and (min-device-width: 376px) and (max-device-width: 414px){
+    .surname{
+        margin-top: 22px !important;
+    }
+}
+
+
+@media (min-width: 415px) and (max-width: 575.98px) { 
+    .surname{
+        margin-top: 22px !important;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .surname{
+        margin-top: 22px !important;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .surname{
+        margin-top: 22px !important;
+    }
+}
+
+

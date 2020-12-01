@@ -1,0 +1,6 @@
+@import '../base/variables';
+@each $name, $color in $bg {
+    .bg-#{$name}{
+     background-color: $color;
+    }
+ }

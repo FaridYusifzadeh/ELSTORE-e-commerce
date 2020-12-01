@@ -1,0 +1,23 @@
+.App {
+  width: 100%;
+  height: max-content;
+}
+.swal-footer {
+  text-align: center;
+}
+
+.swal-button {
+  background-color: #32478a;
+  width: 125px;
+}
+@import './assets/sass/base/variables';
+@import './assets/sass/abstracts/background';
+@import './assets/sass/abstracts/borders';
+@import './assets/sass/abstracts/display';
+// @import './assets/sass/abstracts/flex';
+@import './assets/sass/abstracts/position';
+@import './assets/sass/abstracts/sizing';
+@import './assets/sass/abstracts/spacing';
+@import './assets/sass/abstracts/text';
+@import './assets/sass/abstracts/visibility';
+@import './assets/sass/abstracts/grid.scss';

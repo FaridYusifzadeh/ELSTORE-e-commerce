@@ -1,0 +1,16 @@
+@import '../base/variables';
+
+
+@each $name, $margin in $margin
+ {
+    .margin_#{$name}{
+     margin: $margin
+  }
+}
+
+@each $name, $padding in $padding
+ {
+    .padding_#{$name}{
+     padding: $padding
+  }
+}

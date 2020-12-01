@@ -1,0 +1,43 @@
+.main__category--tel{
+ height: auto;
+ ul{
+   width: 100%;
+   li{
+     list-style: none;
+     border-bottom: 0.5px solid #D6D6D6;
+     // display: flex;
+     justify-content: space-between;
+     font-family: InterRegular;
+     font-style: normal;
+     font-weight: normal;
+     padding-bottom: 9px;
+     font-size: 18px;
+     line-height: 150%;
+     margin-bottom: 12px;
+     letter-spacing: 0.5px;
+     color: #1A1A1A;
+     cursor: pointer;
+     height: auto;
+     span{
+       position: absolute;
+       left: calc(100% - 30px);
+     }
+   }
+   .submenu{
+     overflow: hidden;
+     max-height: 0;
+     transition: max-height 0.3s;
+     width: 100%;
+     position: relative;
+     // padding-top: 50px;
+     // right: 173px;
+
+     ul{
+       margin-left: 20px;
+     }
+   }
+   .category__items:hover .submenu{
+     max-height: 10em;
+   }
+ }
+}

@@ -1,0 +1,44 @@
+
+@import '../../assets/sass/base/variables';
+
+.button_rating_content{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    .button_rating{
+        border: none;
+        width: max-content;
+        height: 36px;
+        font-size: 12px;
+        display: flex;
+        font-family: InterRegular;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: normal;
+        padding: 7px 12px;
+        margin:2px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        img{
+            width: 20px;
+            height: 19px;
+            float: left;
+            margin-right:6px;
+        }
+    }
+}
+
+.bg-gold{
+    background-color: #FFFBD8;
+}
+.bg-grey{
+    background-color: $text-tertiary;
+}
+.bg-rose{
+    background-color:#FFEBEB;
+}
+.bg-gray{
+    background-color: #F1F1F1;
+}
+

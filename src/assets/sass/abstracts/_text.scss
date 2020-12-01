@@ -1,0 +1,69 @@
+@import '../base/variables';
+//---------text-align
+
+.txt--center{text-align: center;};
+.txt--left{text-align: left;};
+.txt--right{text-align: right;};
+.txt--jstfy{text-align: justify;};
+.txt--start{text-align: start;};
+.txt--end{text-align: end;};
+
+//-----------text-decoration
+.txt--dashed{text-decoration: dashed;}
+.txt--dotted{text-decoration:dotted;}
+.txt--double{text-decoration: double;}
+.txt--through{text-decoration: line-through;}
+.txt--overline{text-decoration: overline;}
+.txt--underline{text-decoration: underline;}
+.txt--wavy{text-decoration: wavy;}
+.txt--solid{text-decoration: solid;}
+
+//----------------text-justify
+
+.txt--distribute{text-justify: distribute;}
+.txt--distribute-all{text-justify: distribute-all-lines;}
+.txt--inter-cluster{text-justify: inter-cluster;}
+.txt--inter-ideograph{text-justify: inter-ideograph;}
+.txt--inter-word{text-justify: inter-word;}
+.txt--kashida{text-justify: kashida;}
+.txt--newspaper{text-justify: newspaper;}
+
+//----------------text-overflow
+.txt--clip{text-overflow: clip;}
+.txt--ellipsis{text-overflow: ellipsis;}
+
+
+//----------------text-decoration-color
+@each $name,$color in $text {
+   .txt--decoration--#{$name}{
+     text-decoration-color: $color;
+   }
+}
+
+//-----------------text-color
+@each $name,$color in $text {
+ .txt--#{$name}{
+   color: $color;
+ }
+}
+//---------------text-transform
+
+ .txt--lovercase{text-transform: lowercase;}
+ .txt--uppercase{text-transform: uppercase;}
+ .txt--capitalize{text-transform: capitalize;}
+
+ //---------------text-font-size
+
+//  @each $name,$size in $fontsize {
+//   .txt--size--#{$name}{
+//     font-size: $size;
+//   }
+//  }
+
+//   //---------------text-font-weight
+
+//   @each $name,$size in $fontweight {
+//     .txt--weight--#{$name}{
+//       font-size: $size;
+//     }
+//    }

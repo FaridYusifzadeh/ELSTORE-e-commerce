@@ -1,0 +1,297 @@
+@import "../../App.scss";
+.check__order{
+    .redirect__page1{
+        display: flex;
+        span{
+            margin-right: 16px;
+            margin-left: 16px;
+        }
+        .rediretc__text{
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: #1A1A1A;
+            text-decoration: none;
+        }
+    }
+    .orderss{
+        padding-top: 44px;
+        padding-bottom: 18px;
+        h5{
+            width: max-content;
+            height: 47px;
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 31.25px;
+            line-height: 150%;
+            letter-spacing: 0.25px;
+            color: #1A1A1A;
+        }
+    }
+    .order__info{
+        
+        width: 673px;
+        background: rgba(34, 135, 81, 0.06);
+        border: 1px solid #228751;
+        box-sizing: border-box;
+        border-radius: 8px;
+        p{
+            padding: 14px 21px;
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.25px;
+            color: #228751;
+        }
+    }
+    .orders__code{
+        padding-top: 61px;
+        padding-bottom: 17px;
+        p{
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.25px;
+            color: #444444;
+        }
+    }
+    .orders_details{
+        background: #6472B8;
+        p{
+            padding-top: 11px;
+            padding-bottom: 13px;
+            padding-left: 39px;
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            letter-spacing: 0.25px;
+            color: #FFFFFF;
+        }
+    }
+    .main__orders{
+        background: #FFFFFF;
+        box-shadow: 0px 0px 25px rgba(119, 126, 148, 0.15), 0px 8px 25px rgba(119, 126, 148, 0.15);
+        border-radius: 0px 0px 8px 8px;
+        
+        .table__info{
+            display: flex;
+            justify-content: space-around;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 10px rgba(205, 205, 205, 0.23);
+            h3{
+                padding-top: 15px;
+                padding-bottom: 15px;
+                font-family: InterRegular;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: 0.25px;
+                color: #767676;
+            }
+        }
+        .order{
+            padding-top: 45px;
+            padding-bottom: 46px;
+            display: flex;
+            justify-content: space-around;
+            .product_-image{
+                width: 156px;
+                height: 156px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 8px;
+                }
+            }
+            .productss{
+                width: 250px;
+            }
+            h3{
+                display: flex;
+                align-items: center;
+                width: 9%;
+                word-break: break-word;
+                font-family: InterRegular;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 150%;
+                letter-spacing: 0.25px;
+                color: #444444;
+            }
+
+        }
+    }
+    .client_info{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 78px;
+        .personal__info{
+           
+            h4{
+                font-family: InterRegular;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 150%;
+                letter-spacing: 0.25px;
+                color: #444444;
+            }
+            ul{
+                li{
+                    list-style: none;
+                    font-family: InterRegular;
+                     font-style: normal;
+                     font-weight: 500;
+                     font-size: 16px;
+                     line-height: 150%;
+                     letter-spacing: 0.25px;
+                     color: #767676;
+                     word-break: break-word;
+                }
+            }
+        }
+      
+        .client__main__info{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            ul{
+              width: 25%;
+              padding-left: 100px;
+                li{
+                    list-style: none;
+                    font-family: InterRegular;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 150%;
+                    letter-spacing: 0.25px;
+                    color: #767676;
+                }
+            }
+        }
+    }
+    
+}
+.pdf_top{
+    margin-top: 77px;
+    .pdf__check{
+        width: 30%;
+        margin: auto;
+        background: #6472B8;
+        border-radius: 8px;
+        font-family: InterRegular;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        align-self: center;
+    }
+}
+
+@media (max-width:776px){
+
+    .check__order{
+        .order__info{
+        
+            width: 100%;
+            
+            background: rgba(34, 135, 81, 0.06);
+            border: 1px solid #228751;
+            box-sizing: border-box;
+            border-radius: 8px;
+            p{
+                padding: 14px 21px;
+                font-family: InterRegular;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: 0.25px;
+                color: #228751;
+            }
+        }
+        .main__orders{
+            .order{
+                .productss{
+                    width: 100px;
+                    word-break: break-word;
+                }
+                .product_-image{
+                    width: 56px;
+                    height: 56px;
+                }
+                h3{
+                    font-size: 12px;
+                }
+            }
+        }
+        .client_info{
+            .personal__info{
+                h4{
+                    font-size: 15px;
+                }
+                ul{
+                    li{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        .pdf__check{
+            margin-top: 30px;
+            width: 100%;
+            margin: auto;
+            background: #6472B8;
+            border-radius: 8px;
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.5px;
+            color: #FFFFFF;
+            flex: none;
+            order: 0;
+            align-self: center;
+        }
+    }
+    .pdf_top{
+        margin-top: 30px;
+        .pdf__check{
+            width: 100%;
+            margin: auto;
+            background: #6472B8;
+            border-radius: 8px;
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.5px;
+            color: #FFFFFF;
+            flex: none;
+            order: 0;
+            align-self: center;
+        }
+    }
+    
+}

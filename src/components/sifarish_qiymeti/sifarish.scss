@@ -1,0 +1,294 @@
+@import "../../assets/sass/abstracts/grid.scss";
+@import "../../assets/sass/abstracts/_display.scss";
+@import "../../assets/sass/abstracts/_flex.scss";
+.Slider{
+    height: 612px;
+    background-color: wheat;
+}
+.text__qiymet{
+    height: 5px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    h5{
+        font-family: InterRegular;
+        font-style: normal;
+        font-weight: 600;
+        height: 47px;
+        font-size: 28.43px;
+        line-height: 32px;
+        color: #1A1A1A;
+    }
+    .text--stock{
+        margin-right: 0px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        img{
+            height: 14.14px;
+            margin-top: 6px;
+            width: 18px;
+            margin-right: 2px;
+        }
+        p{
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 170%;
+            letter-spacing: 0.25px;
+            color:#6472B8;;
+            width: 77px;
+            height: 24px;
+        }
+    }
+}
+.text--qeydler{
+    h5{
+        font-family: InterRegular;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.25px;
+        text-transform: uppercase;
+        color: #1A1A1A;
+    }
+    .text--product__melumatlar{
+        width: 100%;
+        height: auto;
+       
+        border-radius: 8px;
+        margin-top: 5px;
+        p{
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 150%;
+            letter-spacing: 0.5px;
+            color: #767676;
+            margin-bottom: 10px;
+        }
+        li{
+            list-style: none;
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 170%;
+            letter-spacing: 0.25px;
+            color: #444444;
+            
+        }
+    }
+    
+} 
+
+.text--qiymetferqi {
+    width: 100%;
+    height: 48px;
+    font-family: InterRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 170%;
+    letter-spacing: 0.25px;
+    color: #767676;
+    margin-top: 25px;
+    margin-bottom: 5px;
+
+}
+.bord{
+    border: 0.5px solid #CCCCCC;
+}
+@media (max-width:1200px)
+{
+    .text__qiymet{
+        height: 5px;
+        margin-top: 22px;
+        margin-bottom: 5px;
+        justify-content: space-between;
+        h5{
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28.43px;
+            line-height: 32px;
+            color: #1A1A1A;
+        }
+        .text--stock{
+            margin-right: 0px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            img{
+                height: 14.14px;
+                margin-top: 4px;
+                width: 18px;
+                margin-left: -4px;
+            }
+            p{
+                font-family: InterRegular;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 170%;
+                letter-spacing: 0.25px;
+                color: #6472B8;;
+                    height: 24px;
+            }
+        }
+    }
+.text--qiymetferqi {
+    width: 100%;
+    height: 48px;
+    font-family: InterRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 170%;
+    letter-spacing: 0.25px;
+    color: #767676;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+}
+@media (max-width:992px)
+{
+    .text__qiymet{
+        height: 32px;
+        margin-top: 22px;
+        margin-bottom: 5px;
+        h5{
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28.43px;
+            line-height: 32px;
+            color: #1A1A1A;
+        }
+    .text--stock{
+    margin: auto;
+    margin-bottom: 5px;
+    p{
+        font-family: InterRegular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 170%;
+        letter-spacing: 0.25px;
+        color: #6472B8;;
+        width: 77px;
+        height: 24px;
+    }
+    }
+}
+.text--qiymetferqi {
+    width: 100%;
+    height: 24px;
+    font-family: InterRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 170%;
+    letter-spacing: 0.25px;
+    color:  #767676;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+}
+@media (max-width:768px)
+{
+    .text__qiymet{
+        height: 32px;
+        margin-top: 22px;
+        margin-bottom: 5px;
+        h5{
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28.43px;
+            line-height: 32px;
+            color: #1A1A1A;
+        }
+    .text--stock{
+       margin: auto;
+        margin-top: 0;
+        margin-bottom: 5px;
+    p{
+        font-family: InterRegular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 170%;
+        letter-spacing: 0.25px;
+        color: #6472B8;;
+        width: 77px;
+        height: 24px;
+    }
+    }
+}
+.text--qiymetferqi {
+    width: 100%;
+    height: 24px;
+    font-family: InterRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 170%;
+    letter-spacing: 0.25px;
+    color:  #767676;
+    margin-top: 5px;
+}
+}
+@media (max-width:576px)
+{
+    .text__qiymet{
+        height: 4px;
+        margin-top: 22px;
+        margin-left:16px;
+        margin-bottom: 5px;
+        h5{
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            color: #1A1A1A;
+        }
+    .text--stock{
+        margin-right: 10px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    p{
+        font-family: InterRegular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 170%;
+        letter-spacing: 0.25px;
+        color: #6472B8;
+        width: 77px;
+        height: 24px;
+     } 
+    }
+}
+.text--qiymetferqi {
+    width: 95%;
+    height: 48px;
+    margin-left: 16px;
+    font-family: InterRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 170%;
+    letter-spacing: 0.25px;
+    color: #767676;
+    margin-top: 25px;
+}
+ .text--qeydler{
+     margin-left: 16px;
+     .text--product__melumatlar{
+         width: 100%;
+     }
+ }
+}

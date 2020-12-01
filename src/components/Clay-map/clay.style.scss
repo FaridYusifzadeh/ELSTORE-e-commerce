@@ -1,0 +1,186 @@
+@import '../../App.scss';
+
+
+  .card{
+
+    width:100%;
+    border-radius: 12px;
+    height:180px;
+    overflow:hidden;
+    background-size:cover;
+    background-position:center;
+    margin-bottom: $col_padding;
+    position: relative;
+    box-sizing: border-box;
+    
+   .bg-card-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   }
+
+    a{
+      text-decoration: none;
+      font-family: 'InterRegular';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+  }}
+
+
+
+    .card-overlay{
+            clip-path: polygon(0 0%, 70% 0, 65% 100%, 0% 100%);
+            background: #6472B8;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            height:100%;
+            width:100%;
+            position: relative;
+            
+           .card-link{
+             margin-top: 15px;
+           }
+           .card-info{
+             box-sizing: border-box;
+           }
+        }
+
+        .card-head    {
+          font-family: InterRegular;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          left:17px;
+          right: 43px;
+          letter-spacing: 0.25px;
+          color: #F2F2F2;
+          width: 161px;   
+          position: relative;
+          max-height: 50px;
+          overflow: hidden;
+        }
+
+   .card-info-name{
+                
+            width:32px;
+            height:32px;
+            position:relative;
+            left:18.42px;
+            top:24px;
+              border-radius: 50%;
+          }
+
+
+    .card-info-text{
+            font-family: InterRegular;
+            position:relative;
+            width: auto;
+            top:-8px;
+            left:54px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.25px;
+            color: #FFFFFF;
+      }
+                     
+   
+    .card-go {
+      
+      
+        font-family: InterRegular;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        position:relative;
+        top:19px;
+        left:18px;
+        // width: 140px;
+        cursor: pointer;
+
+
+      
+      
+      }
+      @media(max-width:1200px){
+        .card-head{
+          font-size: 15px;
+          left: 18px;
+        }
+       
+        .card-info-text{
+            font-size: 14px;
+        }
+        .card-go{
+            font-size: 12px !important;
+        }
+      }
+
+      @media(max-width:992px){
+        .card-head{
+          font-size: 15px;
+          left: 18px;
+        }
+       
+        .card-info-text{
+            font-size: 14px;
+        }
+        .card-go{
+            font-size: 12px !important;
+        }
+      }
+        
+      @media(max-width:762px){
+        .card-head{
+          font-size: 15px;
+          left: 18px;
+        }
+       
+        .card-info-text{
+            font-size: 14px;
+        }
+        .card-go{
+            font-size: 12px !important;
+        }
+       
+      } 
+  
+    @media(max-width:392px){
+      .card-head{
+          font-size: 18px;
+          width:150px;
+          left:10px;
+      }
+   
+      
+      .card-info-text{
+          font-size: 12px;
+      }
+      .card-head{
+        font-size: 12px;
+        left: 18px;
+      }
+      .card-go{
+          font-size: 11px !important;
+          width: 160px !important; 
+          word-wrap: break-word;
+          img{
+              position: relative;
+              width: 11px;
+              
+          }
+      }
+      
+  }
+  
+  
+  

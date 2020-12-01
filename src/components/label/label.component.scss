@@ -1,0 +1,19 @@
+.label-component{
+  height: 44px;
+  width: max-content;
+  padding: 6px 12px;
+  margin-left: 33px;
+  text-align: center;
+  line-height: 2.2;
+  border-radius: 5px;
+}
+
+.lbl-active{
+  background-color: #E1FFF1;
+}
+.lbl-danger{
+  background-color: #FFDBDB;
+}
+.lbl-waiting{
+  background-color: #FFFBD8;
+}

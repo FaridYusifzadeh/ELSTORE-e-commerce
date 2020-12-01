@@ -1,0 +1,184 @@
+@import '../App.scss';
+
+.profile_shop__home__section{
+    .profile_shop__home__image{
+        height: 264px;
+        position: relative;
+        margin-bottom: 24px;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        .profile_shop__home__image__content{
+            width: 191px;
+            height: 44px;
+            top: 190px;
+            position: absolute;
+            right: 32px;
+            .profile_shop__home__image__button{
+                position: absolute; 
+                bottom: 0; 
+                background: rgba(241, 241, 241, 0.7); /* Black see-through */
+                width: 100%;
+                opacity:1;
+                font-size: 20px;
+                padding: 15px;
+                text-align: center;
+                border-radius: 6px;
+                margin: 0;
+                cursor: pointer;
+                color: #444444;
+                font-family: InterRegular;
+                font-size: $subtitle--2S;
+                font-weight: $font__weight--500;
+            }
+            .profile_shop__home__image__button:hover{
+                outline: none;
+                border: none;
+            }
+        }
+    }
+    .all_sides__contents{
+        display: grid;
+        grid-template-columns: 20% 57% 20%;
+        grid-gap: 10px;
+        .middle_side_text__content{
+            margin-top: 15px;
+            h4{
+                font-family: NotoRegular;
+                font-size: 31.25px;
+                font-weight: 500;
+                letter-spacing: 0.25px;
+            }
+            p{
+                margin-top: 7px;
+                font-family: InterRegular;
+                font-size: 16px;
+                font-weight: normal;
+            }
+        }
+        .right_side{
+            display: flex;
+            justify-content: flex-end;
+            .right_side__content{
+                width: 307px;
+                height: 140px;
+                border: 1.5px solid #D0D0D0;
+                border-radius: 12px;
+                padding-left: 20px;
+                padding-top: 20px;
+                padding-right: 20px;
+                padding-bottom: 20px;
+                margin-top: 20px;
+                h6{
+                    font-family: InterMedium;
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin-top: 10px;
+                    margin-bottom: 12px;
+                    color: #444444;
+                }
+                p{
+                    font-family: InterRegular;
+                    font-weight: normal;
+                    font-size: 16px;
+                    color: #444444;
+                }
+                &:last-child p{
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+
+    .add_button__section{
+        margin-top: 25px;
+        width: 197px;
+    }
+
+    .profil_filter_content{
+        margin-top: 16px;
+    }
+}
+
+@media only screen and  (max-device-width : 320px) {
+    .all_sides__contents{
+        grid-template-columns: auto !important;
+    }
+    .right_side{
+        justify-content: flex-start !important;
+    }
+}
+
+@media only screen and (min-device-width : 321px) and (max-device-width : 360px) {
+    .all_sides__contents{
+        grid-template-columns: auto !important;
+    }
+    .right_side{
+        justify-content: flex-start !important;
+    }
+}
+
+@media only screen and (min-device-width : 361px) and (max-device-width : 375px) {
+    .all_sides__contents{
+        grid-template-columns: auto !important;
+    }
+    .right_side{
+        justify-content: flex-start !important;
+    }
+}
+
+@media only screen and (min-device-width: 376px) and (max-device-width: 414px){
+    .all_sides__contents{
+        grid-template-columns: auto !important;
+    }
+    .right_side{
+        justify-content: flex-start !important;
+    }
+}
+
+
+@media (min-width: 415px) and (max-width: 575.98px) { 
+    .all_sides__contents{
+        grid-template-columns: auto !important;
+    }
+    .right_side{
+        justify-content: flex-start !important;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .all_sides__contents{
+        grid-template-columns: 100%  !important;
+    }
+    .right_side{
+        justify-content: flex-start !important;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .all_sides__contents{
+        grid-template-columns: 31% 65% !important;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .all_sides__contents{
+        grid-template-columns: 21% 50% 26% !important;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+//     .all_sides__contents{
+//         display: grid;
+//         grid-template-columns: 200px 615px auto !important;
+//     }
+// }
+
+
+

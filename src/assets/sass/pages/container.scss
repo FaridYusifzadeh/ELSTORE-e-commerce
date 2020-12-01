@@ -1,0 +1,11 @@
+main{
+ width: 1280PX;
+ margin: 0px auto;
+}
+
+@media only screen and (max-width:1280px){
+ main{
+  width: 100%;
+  margin: 0px;
+ }
+}

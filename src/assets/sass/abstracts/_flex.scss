@@ -1,0 +1,43 @@
+.flex__none{
+    flex: none;
+}
+
+
+.flex-direction__row {
+    flex-direction: row;
+}
+
+.flex-direcion__rev {
+    flex-direction: row-reverse;
+}
+
+.flex-direction__col{
+    flex-direction: column;
+}
+
+.flex-direction__col-rev{
+    flex-direction: column-reverse;
+}
+
+.flex-wrap__no{
+    flex-wrap: nowrap;
+}
+
+.flex-wrap__wrap{
+    flex-wrap: wrap;
+}
+
+.flex-wrap__wrap-rev {
+    flex-wrap: wrap-reverse;
+}
+
+.flex-flow__col-wr {
+    flex-flow: column-wrap;
+}
+
+.flex-basis__default{
+    flex-basis: auto;
+}
+.d-f{
+    display: flex;
+}

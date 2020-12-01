@@ -1,0 +1,183 @@
+@import '../../assets/sass/base/variables';
+@import '../../../node_modules/swiper/swiper.scss';
+
+.product-slider-container{
+    height: 500px;
+    width:100%;
+    // position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    .slider_like{
+        position: absolute;
+        top: 16px;
+        background-color: transparent;
+        border: 0;
+        right: 16px;
+        z-index: 123;
+        width: 44px;
+        height: 44px;
+        
+    }
+    .swiper-container {
+      width: 100%;
+      height: 300px;
+    }
+
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+  .gallery-top {
+    //   position: relative;
+    height: 500px;
+    width: 100%;
+    margin-left: 16px;
+    .swiper-slide{
+        width: 100% !important;
+    }
+    .swiper-button-next{
+        position: absolute;
+        top: calc(100% / 2 - 25px);
+        left: 16px;
+        height: 50px;
+        width: 50px;
+        background: rgba(255, 255, 255, 0.75);
+        border-radius: 50%;
+        z-index: 35;
+        img{
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            position: relative;
+            top: 16px;
+            left: 20px;
+        }
+    }
+    .swiper-button-prev{
+        position: absolute;
+        top: calc(100% / 2 - 25px);
+        right: 16px;
+        height: 50px;
+        width: 50px;
+        background: rgba(255, 255, 255, 0.75);
+        border-radius: 50%;
+        z-index: 35;
+        img{
+            position: relative;
+            top: 16px;
+            left: 20px;
+        }
+    }
+
+    }
+  .gallery-thumbs {
+    height: 100%;
+    width: 84px;
+    box-sizing: border-box;
+    padding: 10px 0;
+    // position: absolute;
+    top: 0px;
+    left: 0px;
+    .swiper-wrapper{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .swiper-button-prev{
+        height: 54px;
+        width: 100%;
+        position: absolute;
+        top: calc(100% / 2 - -32px) !important;
+        opacity: 1 !important;
+        background: rgba(255, 255, 255,0.8);
+        z-index: 1287312;
+        img{
+            transform: rotate(90deg);
+            position: relative;
+            left: 30px;
+            top: 10px;
+        }
+    }
+  }
+  .gallery-thumbs .swiper-slide {
+    width: 84px !important;
+    height: 84px !important;
+    opacity: 0.4;
+    border-radius: 4px;
+  }
+  .gallery-thumbs .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+}
+
+
+  @media(max-width:760px){
+    .gallery-top {
+        height: 500px;
+        width: 100%;
+        .swiper-button-next{
+            position: absolute;
+            top: calc(100% / 2 - 25px);
+            left: 16px;
+            height: 50px;
+            width: 50px;
+            background: rgba(255, 255, 255, 0.75);
+            border-radius: 50%;
+            z-index: 35;
+            img{
+                transform: matrix(-1, 0, 0, 1, 0, 0);
+                position: relative;
+                top: 16px;
+                left: 20px;
+            }
+        }
+        .swiper-button-prev{
+            position: absolute;
+            top: calc(100% / 2 - 25px);
+            right: 16px;
+            height: 50px;
+            width: 50px;
+            background: rgba(255, 255, 255, 0.75);
+            border-radius: 50%;
+            z-index: 35;
+            img{
+                position: relative;
+                top: 16px;
+                left: 20px;
+            }
+        }
+    
+        }
+  }
+
+  @media(max-width:586px){
+      .mobile-container{
+          padding: 15px;
+      }
+      .gallery-thumbs{
+          display: none;
+      }
+
+      .slider_container.container{
+          padding: 0;
+        //   margin: 0;
+          width: 100%;
+          overflow: hidden;
+      }
+      .gallery-top{
+        margin-left: 0px;
+        .swiper-button-prev{
+            right: 16px;
+            height: 50px;
+            width: 50px;
+            background: rgba(255, 255, 255, 0.75);
+            border-radius: 50%;
+            z-index: 35;
+            img{
+                position: relative;
+                top: 16px;
+                left: 20px;
+            }
+        }
+      }
+  }

@@ -1,0 +1,144 @@
+@import '../../App.scss';
+.search__result{
+ cursor: pointer;
+ position: relative;
+ border: 0.5px solid #D6D6D6;
+ border-radius: 12px;
+ width: 100%;
+ padding-top: 8px;
+ padding-right: 8px;
+ padding-left: 8px;
+ padding-bottom: 8px;
+ height: 446px;
+ box-sizing: border-box;
+ .btn-position{
+     position: absolute;
+     bottom: 0px;
+     width: 94%;
+ }
+ .baginto{
+    
+    text-decoration: none;
+    .bag{
+        height: 25px;
+        margin-top: 6px;
+        text-decoration: none;
+    }
+    .button__adress{
+        width: 100%;
+        height: 44px;
+        background: #F1F1F1;
+        border-radius: 6px;
+        padding: 11.5px 16px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight:  $font__weight--600;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: #444444;
+        font-family: InterMedium;
+        order: 1;
+        align-self: center;
+        
+    }
+   }
+
+ h5{
+     font-family: InterMedium;
+     font-size: 20px;
+     font-weight: $font__weight--500;
+     margin-top: 10px;
+     letter-spacing: 0.25px;
+     height: 50px;
+     overflow: hidden;
+     a{
+         text-decoration: none;
+         text-decoration-style: none;
+         color: black;
+     }
+ }
+//  .discount{
+//      margin-top: 3px;
+//      font-family: InterRegular;
+//      font-size: 12px;
+//      font-weight: normal;
+//      color: #228751;
+//  }
+ p{
+     margin-top: 1px;
+     font-family: InterRegular;
+     font-size: $subtitle--1S;
+     color: #334788;
+ }
+ .swiper_slide_image{
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    /* padding-top: 70%; */
+    position: relative;
+    
+     img{
+        //  width: 100%;
+        //  height: 100%;
+        //  object-fit: cover;
+        //  object-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    object-position: center center;
+     }
+    }
+   
+ }
+
+ .product__price{
+     display: inline-block;
+     
+ }
+ del{
+    font-family: InterRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.25px;
+    color: #444444;
+    margin-left: 4px;
+ }
+.product_-discount{
+    font-family: InterRegular !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+    line-height: 150% !important;
+    letter-spacing: 0.5px;
+    color: #228751 !important;
+}
+
+ @media (max-width:992px){
+    .baginto{
+       
+        .bag{
+            height: 25px;
+            margin-left: 100px !important;
+            margin-top: 6px;
+            
+        }
+ }
+ @media (max-width:362px){
+    .baginto{
+ 
+        .bag{
+            height: 25px;
+            margin-top: 6px;
+            
+        }
+    }
+}
+ }

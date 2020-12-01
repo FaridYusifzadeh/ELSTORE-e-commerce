@@ -1,0 +1,35 @@
+@import "../../../App.scss";
+
+.profil__info--offer{
+    display: flex;
+
+    div{
+        width: 50%;
+
+        h5{
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.25px;
+            text-transform: uppercase;
+            color: #1A1A1A;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .active--border{
+            width: 100%;
+            border: 2px solid #6472B8;
+        }
+        .simple--border{
+            width: 100%;
+            border: 2px solid #D0D0D0;
+        }
+    }
+}
+
+#old-order-section{
+    display: none;
+}

@@ -1,0 +1,137 @@
+@import "../../assets/sass/abstracts/grid.scss";
+@import "../../assets/sass/abstracts/_display.scss";
+@import "../../assets/sass/abstracts/_flex.scss";
+
+.box{
+    height: 500px;
+    border: 1px solid red;
+    h1{
+        color: blue;
+    }
+}
+
+
+    .text--amount{
+        justify-content: space-between;
+        h5{
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.25px;
+            color: #444444;
+        }
+        p{
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: right;
+            letter-spacing: 0.25px;
+            color: #444444;
+        }
+        .text__amount--count{
+            justify-content: space-between;
+        }
+        .text__tax-count{
+            justify-content: space-between;
+            margin-top: 2px;
+            p{
+                font-family: InterRegular;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 150%;
+                letter-spacing: 0.25px;
+                text-transform: uppercase;
+                color: #444444;
+            }
+        }
+        .bord{
+            width: 100%;
+            margin-top: 10px;
+            border: 0.5px solid #D0D0D0;
+        }
+    }
+    
+
+.text--delivery{
+    margin-top: 6px;
+    .text__delivery--count{
+        justify-content: space-between;
+        h5{
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.25px;
+            color: #444444;
+        }
+        p{
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: right;
+            letter-spacing: 0.25px;
+            color: #444444;
+        }
+    }
+    p{
+        margin-top: 5px;
+        font-family: InterRegular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        color: #444444;
+    }
+    .bord{
+        border: 1px solid #444444;
+        width: 100%;
+        margin-top: 11px;
+    }
+
+}
+.text__total-sum{
+    justify-content: space-between;
+    margin-top: 18px;
+    h5{
+        font-family: InterRegular;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.25px;
+        color: #444444;
+    }
+    p{
+        font-family: InterRegular;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        text-align: right;
+        letter-spacing: 0.25px;
+        color: #1A1A1A;
+    }
+}
+
+
+@media (max-width:992px){
+    .text--total-sum{
+        margin-top: 39px;
+        padding: 42px 44px;
+    }
+}
+@media (max-width:576px){
+    .text--total-sum{
+        margin-top: 88px;
+        padding: 24.88px 24px;
+    }
+}

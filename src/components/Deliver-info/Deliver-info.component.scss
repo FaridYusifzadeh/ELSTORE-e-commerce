@@ -1,0 +1,53 @@
+
+@import '../../App.scss';
+
+.deliver__info__section{
+    margin-top: 42px;
+    width: 95%;
+    .deliver__info__title{
+        border-bottom: 1px solid black;
+        width: 110px;
+        margin-bottom: 16px;
+        h4{
+            font-size: $subtitle--L;
+            font-family: InterMedium;
+            font-weight: $font__weight--500;
+            margin-bottom: 0;
+            color: #1A1A1A;
+        }
+    }
+    .deliver__info__content__section{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 0 10px;
+        .deliver__info__content{
+            margin-bottom: 22px;
+            p{
+                font-size: $subtitle--2S;
+                font-family: InterMedium;
+                font-weight: $font__weight--500;
+                letter-spacing: 0.25px;
+                color: #1A1A1A;
+            }
+            ul{
+                margin-top: 5px;
+                list-style: none;
+                font-size: $subtitle--1S;
+                font-family: InterRegular;
+                font-weight: $font__weight--normal;
+                color: #444444;
+                li{
+                    // margin-top: 5px;
+                    line-height: 200%;
+                    color: #444444;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:576px){
+    .deliver__info__content__section{
+        grid-template-columns: auto !important;
+    }
+}

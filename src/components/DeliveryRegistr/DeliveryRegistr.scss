@@ -1,0 +1,112 @@
+@import "../../App.scss";
+
+.delivery__registr{
+    width: 735px;
+   
+    background: #FFFFFF;
+    box-shadow: 0px 8px 25px rgba(119, 126, 148, 0.15), 0px 0px 25px rgba(119, 126, 148, 0.15);
+    border-radius: 20px;
+    margin: auto;
+
+    .redirect__page{
+        display: flex;
+        padding-top: 48px;
+        padding-left: 61px;
+        span{
+            margin-right: 4px;
+        }
+        .rediretc__text{
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: #1A1A1A;
+            text-decoration: none;
+        }
+    }
+    .store__registr--text{
+        padding-left: 37px;
+        padding-top: 8px;
+        font-family: InterRegular;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 31.25px;
+        line-height: 150%;
+        letter-spacing: 0.25px;
+        color: #1A1A1A;
+    }
+
+    .registr__input{
+        display: flex;
+        padding-top: 45px;
+        div{
+            width: 308px;
+            padding: 0px 12px;
+        }
+    }
+    .delivery_phone{
+        width: 317px;
+        padding-left: 34px;
+        padding-top: 32px
+    }
+    .delivery_info{
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 32px;
+    }
+    .Delivery__button{
+
+        padding-left: 32px;
+            padding-right: 32px;
+        .btn__Delivery{
+            padding-left: 32px;
+            padding-right: 32px;
+            background: #6472B8;
+            border-radius: 8px;
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.5px;
+            color: #FFFFFF;
+            flex: none;
+            order: 0;
+            align-self: center;
+        }
+    }
+    .redirect__page{
+     padding-left: 40px;
+    }
+}
+
+@media (max-width:576px){
+    .delivery__registr{
+        width: 100%;
+        .registr__input{
+            display: block;
+            padding-top: 45px;
+            div{
+                width: 100%;
+                margin-top: 20px;
+            }
+        }
+        h5{
+            font-size: 23px;
+        }
+        .registr__input{
+            display: block;
+            padding-top: 45px;
+            div{
+                width: 100%;
+            }
+        }
+        .delivery_phone{
+            width: 88%;
+        }
+    }
+    
+}

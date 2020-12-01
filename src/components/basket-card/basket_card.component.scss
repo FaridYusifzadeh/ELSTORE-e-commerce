@@ -1,0 +1,405 @@
+@import "../../assets/sass/base/variables";
+
+.basket__card {
+  border: 1.5px solid #d6d6d6;
+  width: 100%;
+  padding: 30px 20px;
+  margin-bottom: 32px;
+  box-shadow: 0px 8px 10px rgba(119, 126, 148, 0.15),
+    0px 0px 10px rgba(119, 126, 148, 0.15);
+  border-radius: 12px;
+}
+
+
+
+.basket_card_img {
+  width: 156px;
+  height: 156px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.baskert_card_header {
+  font-family: "NotoRegular";
+  font-weight: $font__weight--500 !important;
+  font-size: 22px;
+  width: 100%;
+}
+
+.basket_card_firm {
+  font-size: $subtitle--2S;
+  padding-right: 6px;
+  color: $text-secondary;
+  font-family: "InterRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+.basket_card_selling {
+  font-size: $subtitle--2S;
+  padding-left: 5px;
+  color: $text-secondary;
+  font-family: "InterRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+.basket_card_firm_height {
+  height: 12px;
+  width: 0.5px;
+  background-color: $text-secondary;
+  display: inline-block;
+  position: relative;
+  top: 1px;
+}
+.basket_card_checkboxdiv {
+  margin-top: $margin--lg;
+  font-size: $subtitle--2S;
+  input {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 20px;
+  }
+}
+.basket__form__text {
+  margin-left: 4px;
+  font-family: "InterRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 170%;
+  color: #444444;
+  letter-spacing: 0.25px;
+}
+
+.basket_order_details_head {
+  letter-spacing: 0.25px;
+  margin-top: 25px;
+  font-size: $subtitle--1S;
+  text-transform: uppercase;
+  font-family: "InterRegular";
+  font-weight: 500;
+  img {
+    position: relative;
+    top: -2px;
+  }
+}
+.basket_order_details_text {
+  font-family: "InterRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 170%;
+  letter-spacing: 0.25px;
+  color: $text-secondary;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.2s ease-out;
+  a {
+    font-family: "InterRegular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    text-decoration-line: underline;
+    color: #1a1a1a;
+  }
+}
+
+.basket_card_shipping_section_head {
+  letter-spacing: 0.25px;
+  font-family: "InterRegular";
+  font-size: $subtitle--1S;
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.basket_card_shipping_section_text {
+  margin-top: 1px;
+  font-size: $subtitle--2S;
+  font-weight: normal;
+  line-height: 170%;
+}
+
+.basket_price {
+  &_head {
+    font-size: $head--5;
+  }
+  .discount {
+    margin-right: 2px;
+    color: $text-success;
+    font-size: $subtitle--2S;
+    line-height: 170%;
+    letter-spacing: 0.25px;
+  }
+  .oldPrice {
+    font-weight: 500;
+    font-size: $subtitle--2S;
+    color: $text-secondary;
+    line-height: 150%;
+    text-decoration: line-through;
+    margin-left: 5px;
+    letter-spacing: 0.25px;
+  }
+  div{
+    .product-discount{
+      color: green;
+    }
+  }
+}
+
+.add_minus {
+  display: flex;
+  margin-top: 60px;
+  .add_minus_button {
+    width: 45px;
+    height: 44px;
+    margin-left: auto;
+    background: #f1f1f1;
+    border: 0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  .add_plus_button {
+    width: 45px;
+    height: 44px;
+    background: #f1f1f1;
+    border: 0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .add_minus_text {
+    width: 45px;
+    height: 44px;
+    border: 0;
+    background: #f1f1f1;
+    display: inline-block;
+  }
+}
+.basket_bottom_buttons {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+.price_div {
+  text-align: right;
+}
+
+.basket_bottom_button {
+  padding: 11.5px 16px;
+  width: 104px;
+  background: #f1f1f1;
+  border-radius: 6px;
+  border: 0;
+  outline: none;
+  margin-left: 12px;
+  margin-top: 9px;
+  text-transform: uppercase;
+  font-family: "InterMedium";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.basket_bottom_button_img {
+  width: 30px;
+  height: 30px;
+  margin-right: 4px;
+  position: relative;
+  top: 3px;
+}
+
+.accordion {
+  cursor: pointer;
+}
+
+.basket_info {
+  width: 74%;
+  margin-left: 13px;
+  word-break: break-word;
+}
+
+.card-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card_left {
+  flex: 1;
+}
+.card_center {
+  flex: 3;
+  margin-left: 16px;
+  width: 420px;
+}
+.card_right {
+  flex: 2;
+}
+
+.basket_header_text {
+    background: #edefff;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border: 0;
+    padding: 3.5px 7px;
+    &:focus {
+      outline: 0;
+    }
+    font-style: normal;
+    font-weight: normal;
+    font-weight: "InterRegular";
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #444444;
+  }
+
+
+
+@media (max-width: 900px) {
+  .basket__card {
+    padding: 24px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .card_center{
+        width: 70% !important;
+        order: 1;
+        flex: none;
+        margin-left: 13px;
+    }
+    .basket_info{
+        width: 95%;
+    }
+}
+
+@media (min-width: 415px) and (max-width: 575.98px) { 
+    .card_center{
+        width: 95% !important;
+        order: 1;
+        flex: none;
+        margin-left: 0px;
+    }
+    .basket_info{
+        width: 95%;
+        margin-left: 0px !important;
+    }
+    .basket_header_text{
+        margin-left: 0px !important;
+    }
+}
+
+
+@media only screen and (min-device-width: 376px) and (max-device-width: 414px){
+    .card_center{
+        width: 100% !important;
+        order: 2;
+        flex: none;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .basket_info{
+        width: 100%;
+        margin-left: 0px !important;
+    }
+    .basket_header_text{
+        margin-left: 0px !important;
+    }
+    .card-flex{
+        flex-direction: column !important;
+    }
+    .basket_price{
+        order: 1 !important;
+        display: flex;
+        justify-content: space-between;
+        .basket_price_head{
+            font-size: 22px !important;
+            margin-top: 17px !important;
+        }
+        .add_minus{
+            margin-top: 10px !important;
+        }
+    }
+    .card_left{
+        img{
+            width: 100% !important;
+        }
+    }
+}
+
+@media only screen and (min-device-width : 361px) and (max-device-width : 375px) {
+    .card_center{
+        width: 100% !important;
+        order: 2;
+        flex: none;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .basket_info{
+        width: 100%;
+        margin-left: 0px !important;
+    }
+    .basket_header_text{
+        margin-left: 0px !important;
+    }
+    .card-flex{
+        flex-direction: column !important;
+    }
+    .basket_price{
+        order: 1 !important;
+        display: flex;
+        justify-content: space-between;
+        .basket_price_head{
+            font-size: 22px !important;
+            margin-top: 17px !important;
+        }
+        .add_minus{
+            margin-top: 10px !important;
+        }
+    }
+    .card_left{
+        img{
+            width: 100% !important;
+        }
+    }
+}
+
+@media only screen and  (max-device-width : 360px) {
+    .card_center{
+        width: 100% !important;
+        order: 2;
+        flex: none;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .basket_info{
+        width: 100%;
+        margin-left: 0px !important;
+    }
+    .basket_header_text{
+        margin-left: 0px !important;
+    }
+    .card-flex{
+        flex-direction: column !important;
+    }
+    .basket_price{
+        order: 1 !important;
+        display: flex;
+        justify-content: space-between;
+        .basket_price_head{
+            font-size: 22px !important;
+            margin-top: 17px !important;
+        }
+        .add_minus{
+            margin-top: 10px !important;
+        }
+    }
+    .card_left{
+        img{
+            width: 100% !important;
+        }
+    }
+}

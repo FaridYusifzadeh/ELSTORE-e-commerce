@@ -1,0 +1,126 @@
+@import '../../App.scss';
+
+.dataTables_wrapper .dataTables_filter {
+    float: left !important;
+    text-align: left !important;
+    label{
+     display: none;
+    }
+   
+}
+.dataTables_length{
+    label{
+        display: none
+    }
+}
+td{
+    text-align: left !important;
+    .select__search {
+        select{
+            background-color: #FFFBD8 !important;
+        }
+        
+    }
+}
+
+th{
+    font-family: 'InterRegular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    color: #1A1A1A;
+}
+td{
+    .select__search {
+        select{
+            background-color: #FFFBD8 !important;
+            position: relative;
+            top: -13px;
+        }
+        
+    }
+}
+
+.datatable_search{
+    display: flex;
+    flex-wrap: wrap;
+    label{
+        display: flex;
+        span{
+            position: relative;
+            top: 15px;
+            margin-right: 8px;
+        }
+    }
+    
+}
+.datatable_selectbox{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.moneydiv{
+    display: flex;
+    
+}
+.money_search{
+    width: 86px !important;
+}
+.dataTables_info{
+    display: none;
+}
+.dataTable{
+    // padding-top: 10px !important;
+    padding-bottom: 25px !important;
+}
+.paginate_button{
+        width: 44px !important;
+        height: 44px !important;
+        margin-top: 10px !important;
+        border-radius: 50% !important;
+        background: #F1F1F1 !important;
+}
+.previous, .next{
+    display: none !important;
+}
+.dataTables_paginate{
+    float: left !important;
+    text-align: left !important;
+}
+.current{
+    background: #6472B8 !important; 
+    span{
+        a{
+            color: white !important;
+        }
+    }
+}
+
+.datatable_selectbox_row{
+    
+    border-radius: 8px !important;
+    border: 1px solid #FFFBD8 ;
+    
+}
+
+
+.dtable{
+    width: 100%;
+    overflow: auto;
+}
+.nametable{
+    max-width: 200px;
+    word-wrap: break-word;
+}
+
+@media only screen and (max-device-width:767px){
+    .datatable_search{
+        flex-flow: column;
+        .datatable_selectbox{
+            margin: 15px 0px;
+        }
+    }
+}

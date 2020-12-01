@@ -1,0 +1,142 @@
+@import '../../App.scss';
+
+@import '../../../node_modules/swiper/swiper.scss';
+
+.most_seller_slider_section{
+    position: relative;
+    margin-top: 15px;
+    .most_slider_title{
+        font-family: InterMedium;
+        font-weight: $font__weight--500;
+        font-style: normal;
+        font-size: 25px;
+        margin-bottom: 16px;
+        justify-content: space-between;
+
+        a{
+            font-size: 20px;
+            text-decoration: none;
+        }
+    }
+    .swiper-container{
+        .swiper-wrapper{
+            .swiper-slide{
+                position: relative;
+                border-radius: 12px;
+                width: 308px;
+                height: auto;
+                h4{
+                    font-family: InterMedium;
+                    font-size: 20px;
+                    font-weight: $font__weight--500;
+                    margin-top: 10px;
+                    letter-spacing: 0.25px;
+                    height: 50px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        text-decoration-style: none;
+                    }
+                }
+                .discount{
+                    margin-top: 3px;
+                    font-family: InterRegular;
+                    font-size: 12px;
+                    font-weight: normal;
+                    color: #228751;
+                }
+                p{
+                    margin-top: 1px;
+                    font-family: InterRegular;
+                    font-size: $subtitle--1S;
+                    color: #334788;
+                }
+                .swiper_slide_image{
+                    height: 186px;
+                    // img{
+                    //     object-fit: cover;
+                    //     object-position: center;
+                    //     width: 100%;
+                    //     height: 100%;
+                    // }
+                }
+            }
+        .swiper-slide:hover{
+            box-shadow: 0px 8px 10px rgba(119, 126, 148, 0.15), 0px 0px 10px rgba(119, 126, 148, 0.15);
+        }
+        }
+    }
+    .most-button-next{
+        position: absolute;
+        top:175px;
+        width: 21px;
+        height: 12px;
+        right: -25px;
+        outline: none;
+        cursor: pointer;
+        z-index: 1;
+        img{
+            width: 100%;
+        }
+    }
+    .most-button-preview{
+        position: absolute;
+        top:175px;
+        width: 21px;
+        height: 12px;
+        left: -25px;
+        outline: none;
+        cursor: pointer;
+        z-index: 1;
+        img{
+            width: 100%;
+        }
+    }
+}
+@media only screen and  (max-device-width : 320px) {
+    .most-button-next{
+        display: none;
+    }
+    .most-button-preview{
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width : 321px) and (max-device-width : 360px) {
+    .most-button-next{
+        display: none;
+    }
+    .most-button-preview{
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width : 361px) and (max-device-width : 375px) {
+    .most-button-next{
+        display: none;
+    }
+    .most-button-preview{
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 376px) and (max-device-width: 414px){
+    .most-button-next{
+        display: none;
+    }
+    .most-button-preview{
+        display: none;
+    }
+}
+
+
+@media (min-width: 415px) and (max-width: 575.98px) { 
+    .most-button-next{
+        display: none;
+    }
+    .most-button-preview{
+        display: none;
+    }
+}

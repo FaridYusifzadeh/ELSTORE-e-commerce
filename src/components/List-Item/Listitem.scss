@@ -1,0 +1,27 @@
+@import "../../App.scss";
+
+
+.listitme-li{
+    width: 100%;
+    list-style: none;
+    border-bottom: 0.5px solid #D6D6D6;
+    display: flex;
+    justify-content: space-between;
+    font-family: InterRegular;
+    font-style: normal;
+    font-weight: normal;
+    padding-bottom: 9px;
+    font-size:18px;
+    line-height: 150%;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+    color: #1A1A1A;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover{
+        color:#334788;
+        transition: 0.5s ease;
+    }
+    
+}
+

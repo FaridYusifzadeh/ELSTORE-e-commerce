@@ -1,0 +1,88 @@
+@import '../../../App.scss';
+.head_compaign{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   .compaign_buttons{
+      display: flex;
+     justify-content: space-around;
+     align-items: center;
+   }
+   .compaignbtn{
+      margin: 0 !important;
+      font-family: 'InterRegular';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      padding: 10px 16px;
+      text-decoration: none;
+      text-align: center;
+      align-items: center;
+      vertical-align: middle;
+      span{
+         position: relative;
+         top: 3px;
+      }
+
+   }
+   .compaignbtn.active{
+      background: #6472B8;
+      border-radius: 6px;
+      color: #fff;
+   }
+}
+
+.compaign_tablebtn{
+   width: max-content !important;
+   padding: 8px !important;
+   font-family: 'InterRegular';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   margin: 0 !important;
+   line-height: 200%;
+   letter-spacing: 0.5px;
+   background: #FFFBD8 !important;
+   color: #444444;
+}
+
+.activecompaign{
+   background: #E1FFF1 !important;
+}
+.passivecompaign{
+   background: #FFDBDB !important;
+}
+
+@media only screen and (max-width:576px){
+   .head_compaign{
+      h1{
+       font-size: larger;
+      }
+   }
+   .compaignbtn>span{
+      font-size: larger;
+   }
+}
+@media only screen and (max-width:464px){
+   .head_compaign{
+      h1{
+       font-size: medium;
+      }
+   }
+   .compaignbtn>span{
+      font-size: medium;
+   }
+}
+@media only screen and (max-width:400px){
+   .head_compaign{
+      h1{
+       font-size: small;
+      }
+   }
+   .compaignbtn>span{
+      font-size: small;
+   }
+}

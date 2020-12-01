@@ -1,0 +1,66 @@
+@import '../../assets//sass/base/variables';
+@import '../../assets/sass/abstracts/borders';
+
+.badge{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: max-content;
+ color: $text-tertiary;
+ padding: 6px 12px;
+ background-color: $white;
+ color: $text-dark;
+ font-family:$text__font;
+ font-size: 16px;
+ width: 500px;
+ border-radius: 8px;
+font-family: 'InterRegular';
+font-style: normal;
+font-weight: normal;
+box-shadow: 0px 8px 10px rgba(119, 126, 148, 0.15), 0px 0px 10px rgba(119, 126, 148, 0.15);
+font-size: 16px;
+ img{
+  margin-right: 6px;
+ }
+}
+
+.badge-active{
+ background-color: #EDEFFF;
+ border: 1px solid $primary--light;
+ color: $text-dark;
+}
+.badge-done{
+ background-color: $primary--dark;
+ color: $white;
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .badge{
+        font-size: 12px !important;
+    }
+}
+
+@media (min-width: 415px) and (max-width: 575.98px) { 
+    .badge{
+        font-size: 11px !important;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+}
+
+@media only screen and (min-device-width: 376px) and (max-device-width: 414px){
+    .badge{
+        font-size: 10px !important;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+}
+
+@media only screen and  (max-device-width : 375px) {
+    .badge{
+        font-size: 8px !important;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+}

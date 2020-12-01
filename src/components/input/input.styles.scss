@@ -1,0 +1,62 @@
+@import "../../assets/sass/abstracts/background";
+@import "../../assets/sass/abstracts/borders";
+@import "../../assets/sass/abstracts/sizing";
+@import "../../assets/sass/abstracts/display";
+@import "../../assets/sass/abstracts/text";
+
+.input {
+  input {
+    height: 48px;
+    margin: 10px 16px 0px 0px;
+    padding: 12px 12px 12px 12px;
+    outline: 0px solid transparent;
+    border: 1.5px solid #444444;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+
+  ::-webkit-input-placeholder {
+    color: #444444;
+    font-size: 14px;
+    font-family: InterRegular;
+  }
+
+  .input-notes:hover {
+    outline: 0px solid transparent;
+    border: 1.5px solid #6472b8;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .input-items {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    p {
+      margin: 3px 0px 0px 12px;
+      font-size: 12px;
+      font-family: InterRegular;
+    }
+
+    .numbers {
+      font-size: 12px;
+      font-style: normal;
+      font-weight: normal;
+      font-family: InterRegular;
+      margin: 3px 12px 0px 0px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  input {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  input {
+    width: 280px;
+  }
+}

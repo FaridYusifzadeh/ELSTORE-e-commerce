@@ -1,0 +1,43 @@
+@import "../../assets/sass/abstracts/background";
+@import "../../assets/sass/abstracts/borders";
+@import "../../assets/sass/abstracts/sizing";
+@import "../../assets/sass/abstracts/display";
+@import "../../assets/sass/abstracts/text";
+@import "../../assets/sass/abstracts/spacing";
+@import "../../assets/sass/abstracts/grid.scss";
+
+
+.btn-buy-now {
+  margin: 0px 16px 7px 0px;
+  background-color: #95a0eb;
+}
+
+.btn-buy-now:hover {
+  outline: 0px solid transparent;
+  border: 1.5px solid #6472b8;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.add-basket {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  p {
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: lowercase;
+    font-family: InterRegular;
+    margin-top: 2px;
+  }
+
+  .add-basket-icon {
+    padding-right: 3px;
+    width: 15px;
+    height: 20px;
+  }
+}

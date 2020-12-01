@@ -1,0 +1,157 @@
+@import "../../App.scss";
+
+.redirect__page{
+    display: flex;
+    padding-top: 6px;
+    padding-left: 4px;
+    margin-bottom: 15px;
+
+
+    span{
+        margin-right: 4px;
+    }
+    .rediretc__text{
+        font-family: InterRegular;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: #1A1A1A;
+        text-decoration: none;
+    }
+}
+.store__registr--text{
+    padding-left: 61px;
+    padding-top: 8px;
+    font-family: InterRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31.25px;
+    line-height: 150%;
+    letter-spacing: 0.25px;
+    color: #1A1A1A;
+}
+.basket_header_text{
+    background: #EDEFFF;
+    border-radius: 4px;
+    margin-top: 11.5px;
+    margin-left: 61px;
+    margin-bottom: 8px;
+    border: 0;
+    padding: 3.5px 7px;
+    &:focus{
+        outline: 0;
+    }
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 'InterRegular';
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #444444;
+}
+.input__company{
+    padding-top: 20px;
+    padding-left: 61px;
+    .input_companyadd{
+        width: 418px;
+    }
+    .input__company-info{
+        width: 639px;
+        margin-left: 24px;
+    }
+}
+.company__discount{
+    padding-top: 38px;
+    padding-left: 61px;
+    width: 200px;
+}
+.company__coverPhoto{
+    padding-top: 40px;
+    padding-left: 61px;
+    h5{
+        font-family: InterRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #1A1A1A;
+    }
+    p{
+        font-family: InterRegular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 200%;
+        letter-spacing: 0.5px;
+        color: #444444;
+    }
+    
+}
+.profile__photo2{
+        
+    display: flex;
+    margin-top: 14px;
+    margin-left: 61px;
+    width: 50%;
+    background: #EDEFFF;
+    .profil__images{
+        width: 100%;
+       
+        background: url("../../assets/images/icons/Increase.svg") no-repeat center;
+        background-size: 48px 48px;
+        height: 248px;
+        border-radius: 12px;
+        input{
+            opacity: 0;
+            position: absolute;
+            cursor: pointer;
+            width: 49%;
+            height: 28%;
+        }
+        
+        img{
+            cursor: pointer;
+            object-fit: cover;
+            width: 100%;
+            height:100%;
+        }
+        
+    }
+}
+.company_product-text{
+    padding-top: 16px;
+    padding-bottom: 24px;
+    padding-left: 61px;
+    h5{
+        font-family: InterRegular;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        color: #1A1A1A;
+    }
+}
+.company__create{
+    margin-left: 61px;
+    width: 50%;
+    background: #6472B8;
+    font-family: InterRegular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    align-self: center;
+}
+.tab__center{
+    .cntr{
+    justify-content: center;
+    }
+}
+

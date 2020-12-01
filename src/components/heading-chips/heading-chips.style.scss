@@ -1,0 +1,141 @@
+@import '../../App.scss';
+
+.text__main{
+    h4{
+    font-family: NotoRegular;
+    font-weight: $font__weight--500;
+    font-size: 31.25px;
+    line-height: $line__height; 
+   
+    
+    }
+}
+
+
+.text__main--sub {
+    p{
+        font-family: InterRegular;
+        font-weight: $font__weight--500;
+        font-size: $subtitle--2S;
+        line-height: $line__height;  
+        margin-bottom: 8px;
+        color: #444444;
+        text-transform: capitalize;
+    }
+}
+
+.info{
+        
+
+    .text__main--sub2{
+
+        font-family: InterRegular;
+        font-weight: $font__weight--500;
+        font-size: $subtitle--2S;
+        line-height: $line__height;
+        color: #444444;
+        margin-top:2px;
+
+           
+    }
+    .divider{
+        width: 14px;
+        height: 0px;
+        
+        img{
+          margin-left:6px;
+          margin-top:6px;
+         
+        }
+    }
+}
+
+
+.rating__trend{  
+   margin-top: 18px;
+   margin-bottom:22px;
+   width: 250px;
+   justify-content: space-between;
+    .rating__trend__highrating{
+        
+        
+        img{
+            margin-right: 16px;
+        }
+       
+    }
+  
+    
+}
+@media (max-width:440px){
+
+    .text__main{
+
+        h4{
+        font-family: NotoRegular;
+        font-weight: $font__weight--500;
+        font-size: 31.25px;
+        line-height: $line__height; 
+       
+        
+        }
+    }
+    
+    
+    .text__main--sub {
+        p{
+            font-family: InterRegular;
+            font-weight: $font__weight--500;
+            font-size: $subtitle--2S;
+            line-height: $line__height;  
+            margin-bottom: 8px;
+            color: #444444;
+            text-transform: capitalize;
+        }
+    }
+    
+    .info{
+            
+    
+        .text__main--sub2{
+    
+            font-family: InterRegular;
+            font-weight: $font__weight--500;
+            font-size: $subtitle--2S;
+            line-height: $line__height;
+            color: #444444;
+            margin-top:2px;
+    
+               
+        }
+        .divider{
+            width: 14px;
+            height: 0px;
+            
+            img{
+              margin-left:6px;
+              margin-top:6px;
+             
+            }
+        }
+    }
+    
+    
+    .rating__trend{  
+       margin-top: 18px;
+       margin-bottom:22px;
+       width: 250px;
+       justify-content: space-between;
+       margin-left:16px;
+        .rating__trend__highrating{
+            
+            
+            img{
+                margin-right: 16px;
+            }
+           
+        }
+      
+        
+    }
+}

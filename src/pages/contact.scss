@@ -1,0 +1,32 @@
+.contact_content {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  .text {
+    padding: 24px 30px;
+  }
+  .basket__cart {
+    width: 100%;
+    border: 1.5px solid #d6d6d6;
+    padding: 30px 32px;
+    margin-bottom: 32px;
+    box-shadow: 0px 8px 10px rgba(119, 126, 148, 0.15),
+      0px 0px 10px rgba(119, 126, 148, 0.15);
+    border-radius: 12px;
+    // width: 528px;
+    //height: 370px;
+  }
+}
+
+// .redirect {
+//   margin-top: -60px;
+//   margin-left: -30px;
+// }
+h1 {
+  word-wrap: break-word;
+}
+
+@media only screen and  (max-device-width : 767.98px) {
+    .contact_content{
+        grid-template-columns: 100%;
+    }
+}

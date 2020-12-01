@@ -1,0 +1,130 @@
+@import "../../App.scss";
+
+.modal__bacground{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    overflow-y:scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
+.modal__view{
+    width: 442px;
+    height: auto;
+    top: 2%;
+    position: relative;
+    z-index: 100;
+    background: #FFFFFF;
+    border-radius: 12px;
+    margin: auto;
+    .modal__view--offer{
+        display: flex;
+        margin-bottom: 40px;
+        div{
+             width: 50%;
+             margin-top: 20px;
+             h5{
+                font-family: InterRegular;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: 0.25px;
+                text-transform: uppercase;
+                color: #1A1A1A;
+                text-align: center;
+                cursor: pointer;
+             }
+             .border__size--active{
+                width: 100%;
+                border: 2px solid #6472B8;
+             }
+             .border__size{
+                width: 100%;
+                border: 2px solid #D0D0D0;
+             }
+        }
+        p{
+            height: 0;
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 23px;
+            line-height: 150%;
+            letter-spacing: 0.25px;
+            color: #444444;
+            position: relative;
+            top: -2px;
+            right: 12px;
+            cursor: pointer;
+            &:hover{
+                color:rgb(100, 114, 184);
+                transition: 0.5s ease;
+            }
+        }
+    }
+
+    form{
+       
+
+        a{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 21px;
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: 0.4px;
+            text-decoration-line: underline;
+            color: #1A1A1A;
+            cursor: pointer;
+            margin-right: 12px;
+            margin-top: 21px;
+            margin-bottom: 18px;
+        }
+        label{
+            font-family: InterRegular;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: 0.4px;
+            text-decoration-line: underline;
+            color: #1A1A1A;
+            cursor: pointer;
+            margin-right: 12px;
+            margin-top: 21px;
+            margin-bottom: 18px;
+        }
+       
+    }
+}
+.btn__signin{
+    margin-top: 60px;
+}
+#signup_view{
+    display: none;
+    padding: 0 16px;
+}
+#signin_view{
+    padding: 0 16px;
+}
+.modal__bacground{
+    display: none;
+}
+
+@media(max-width:576px){
+    .modal__view{
+        width: 95%;
+    }
+}
+
+input register{
+    color: red;
+}

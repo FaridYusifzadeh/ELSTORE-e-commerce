@@ -1,0 +1,72 @@
+@import '../../App.scss';
+.creditCard{
+    background: #FFFFFF;
+    border: 1.5px solid #1A1A1A;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 16px 12px
+}
+
+.form_button_multiple{
+    height: 56px;
+    background: #6472B8;
+    border-radius: 8px;
+    width: 100%;
+    font-family: 'InterRegular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+
+}
+
+.latest_section_checkout_p{
+    font-family: 'InterRegular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    letter-spacing: 0.5px;
+    color: #444444;
+}
+.checkout_bottomcardtext{
+    font-family: 'InterRegular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    letter-spacing: 0.5px;
+    color: #444444;
+    h5{
+        font-family: 'InterRegular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.25px;
+        color: #1A1A1A;
+    }
+}
+
+.card_head_flex{
+    display: flex;
+    justify-content: space-between;
+    button{
+        font-family: 'InterRegular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        background-color: transparent;
+        border: 0px;
+        /* Primary / Dark */
+
+        color: #334788;
+    }
+}

@@ -1,0 +1,61 @@
+@import '../../App.scss';
+
+.star__chips{
+ 
+
+.star__text{
+
+    img{
+        margin-right: 4px;
+    }
+
+
+h2{
+font-family: InterRegular;
+font-weight: $font__weight--normal;
+font-size: 14px;
+line-height: 170%;
+letter-spacing: 0.25px;
+color: #444444;
+
+
+
+}
+
+.right-line{
+    width: 14px;
+    height: 0px;
+    
+    img{
+      margin-left:6px;
+      margin-top:6px;
+     
+    }
+}
+
+}
+.heart__text{
+  
+    
+img{
+   width: 16px;
+   height: 13.75px;
+   margin-right:8px;
+   margin-top: 5px;;
+ 
+  
+}
+h2{
+font-family: InterRegular;
+font-weight: $font__weight--normal;
+font-size: 14px;
+line-height: 170%;
+letter-spacing: 0.25px;
+color: #444444;
+margin-top: 1px;
+width: 28px;
+height: 24px;
+margin-left: -4px;
+}
+}
+}

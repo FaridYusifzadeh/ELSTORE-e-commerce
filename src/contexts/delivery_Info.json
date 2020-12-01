@@ -1,0 +1,67 @@
+{
+    "deliver":[
+        {
+            "title":"ÇATDIRILMA",
+            "deliveryChild":[
+                {
+                    "title":"TƏXMİNİ ÇATMA VAXTI",
+                    "description":[
+                        {
+                            "description_child":"Bugün sifariş verdikdə, 2-6 İyul 2020"
+                        }
+                    ]
+                    
+                },
+                {
+                    "title":"SİFARİŞ HAZIRLANIR",
+                    "description":[
+                        {
+                            "description_child":"5-7 gün ərzində"
+                        }
+                    ]
+                },
+                {
+                    "title":"ÇATDIRILMA MÜDDƏTİ",
+                    "description":[
+                        {
+                            "description_child":"Sifarişdən sonra 14 gün ərzində (Bakı daxili)"
+                        },
+                        {
+                            "description_child":"Sifarişdən sonra 1 ay ərzində (Ölkə daxili)"
+                        }
+                    ]
+                },
+                {
+                    "title":"BAĞLAMANIN ÖLÇÜ VƏ ÇƏKİSİ",
+                    "description":[
+                        {
+                            "description_child":"20sm x 32sm x 40sm"
+                        },
+                        {
+                            "description_child":"300q (kiçik ölçü), 600q (böyük ölçü)"
+                        }
+                    ]
+                },
+                {
+                    "title":"ÇATDIRILMA HAQQI",
+                    "description":[
+                        {
+                            "description_child":"3 AZN (Bakı daxili)"
+                        },
+                        {
+                            "description_child":"12 AZN (Ölkə daxili)"
+                        }
+                    ]
+                },
+                {
+                    "title":"GÖNDƏRİLMƏ YERİ",
+                    "description":[
+                        {
+                            "description_child":"Bakı şəhəri"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

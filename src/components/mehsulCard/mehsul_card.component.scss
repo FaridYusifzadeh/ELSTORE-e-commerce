@@ -1,0 +1,165 @@
+@import '../../App.scss';
+
+.discount_title{
+  font-family: InterMedium;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  margin-bottom: 16px;
+  justify-content: space-between;
+  align-items: center;
+  a{
+    font-size: 20px;
+    text-decoration: none;
+  }
+}
+.cardolo{
+  display: flex;
+  justify-content: space-between;
+}
+.e-card{
+    width:100%;
+    border-radius:12px;
+    height:248px;
+    overflow:hidden;
+    background-size:cover;
+    background-position:center;
+    margin-bottom: 24px;
+    position: relative;
+    
+    .bg-card-img{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+     }
+    a{
+        text-decoration: none;
+        font-family: 'InterRegular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+  }
+  .e-card-overlay{
+    clip-path: polygon(0 0, 61% 0, 43% 100%, 0% 100%);
+    background: #A05341;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    height:100%;
+    width:100%;
+    position: relative;
+    
+  }
+  
+  .e-card-head{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31.25px;
+    line-height: 150%;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    position:relative;
+    left:24px;
+    top:22px;
+    width:297px;
+    max-height: 50px;
+    overflow: hidden;
+  }
+  .e-card-info-name{
+    width:40px;
+    height:40px;
+    position:relative;
+    left:24px;
+    top:24px;
+    border-radius: 50%;
+  }
+  .e-card-info-text{
+    position:relative;
+    top:-12px;
+    left:70px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+  }
+  
+  .e-card-go{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position:relative;
+    top:32px;
+    left:24px;
+    
+  }
+
+  @media(max-width:762px){
+      .e-card-head{
+          font-size: 18px;
+          width:210px;
+      }
+      .e-card-info{
+          margin-top: 15px;
+      }
+      .e-card-info-text{
+          font-size: 14px;
+      }
+      .e-card-go{
+          font-size: 12px !important;
+      }
+  }
+
+  @media(max-width:392px){
+    .e-card-head{
+        font-size: 18px;
+        width:150px;
+        left:10px;
+    }
+    .e-card-info{
+        margin-top: 15px;
+        position: relative;
+        left: -10px !important;
+    }
+    .e-card-info-text{
+        font-size: 14px;
+    }
+    .e-card-go{
+        font-size: 10px !important;
+        width: 160px !important; 
+        word-wrap: break-word;
+        img{
+            position: relative;
+            top: 2px;
+        }
+    }
+    
+}
+
+
+
+  .centeredText{
+    font-family: 'InterRegular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #334788;
+    text-decoration: none;
+  }
+  .text-center{
+      text-align: center;
+  }

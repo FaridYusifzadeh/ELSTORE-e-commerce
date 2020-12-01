@@ -1,0 +1,327 @@
+@import '../../App.scss';
+.Store__Photo--text {
+  h5 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    margin-top: 32px;
+  }
+  .profile__photo1 {
+    display: flex;
+    margin-top: 20px;
+    .logouplaods{
+      background: #F1F1F1;
+      border-radius: 6px;
+      width: 82px;
+      height: 44px;
+      margin-left: 22px;
+      margin-top: 22px;
+      cursor: pointer;
+      font-family: InterRegular;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: #444444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .profil__images1 {
+      width: 80px;
+      height: 80px;
+      background: #edefff;
+      border-radius: 12px;
+
+      input {
+        opacity: 0;
+        position: absolute;
+        top: 100px;
+        left: 115px;
+        cursor: pointer;
+        width: 82px;
+        height: 44px;
+      }
+      img {
+        cursor: pointer;
+        object-fit: cover;
+        width: 80px;
+        height: 80px;
+      }
+    }
+    button {
+      width: 82px;
+      height: 44px;
+      padding: 11.5px 16px;
+      background: #f1f1f1;
+      border-radius: 6px;
+      font-family: InterRegular;
+      font-style: normal;
+      font-weight: 500;
+      cursor: pointer;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: #444444;
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 12px;
+    }
+  }
+  .borders {
+    width: 70%;
+    border: 1px solid #edefff;
+    margin-top: 20px;
+  }
+}
+.profile--image_Username {
+  .userName_edit {
+    display: flex;
+    margin-top: 20px;
+
+    h5 {
+      font-family: InterRegular;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.25px;
+      text-transform: uppercase;
+      color: #1a1a1a;
+    }
+    a {
+      font-family: InterRegular;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: 0.4px;
+      text-decoration-line: underline;
+      color: #334788;
+    }
+  }
+  .input-_area {
+    margin-top: 4px;
+    width: 50%;
+    height: 32px;
+  }
+  .borders {
+    margin-top: 40px;
+    width: 70%;
+    border: 1px solid #d6d6d6;
+  }
+}
+
+.profile--image_Store {
+  .userName_edit {
+    display: flex;
+    margin-top: 20px;
+
+    h5 {
+      font-family: InterRegular;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.25px;
+      text-transform: uppercase;
+      color: #1a1a1a;
+    }
+    a {
+      font-family: InterRegular;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: 0.4px;
+      text-decoration-line: underline;
+      color: #334788;
+    }
+  }
+  .Store__info {
+    width: 100%;
+    margin-top: 4px;
+    textarea{
+      width: 301px;
+      border-radius: 4px;
+      resize: none;
+      height: 50px;
+    }
+    p {
+      word-break: break-word;
+    }
+  }
+  .borders {
+    margin-top: 40px;
+    width: 70%;
+    border: 1px solid #d6d6d6;
+  }
+}
+.number__delete {
+  display: flex;
+  margin-top: 4px;
+  p {
+    font-family: InterRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    letter-spacing: 0.5px;
+    color: #1a1a1a;
+  }
+  a {
+    margin-left: 113px;
+  }
+}
+.borders1 {
+  margin-top: 20px;
+  width: 70%;
+  border: 1px solid #d6d6d6;
+}
+.emails a {
+  margin-left: 118px;
+}
+.store a {
+  margin-left: 76px;
+}
+.mail a {
+  margin-left: 191px;
+}
+.pass a {
+  margin-left: 192px;
+}
+.phone a {
+  margin-left: 97px;
+}
+.button_delete--acc {
+  background-color: black;
+  width: 116px;
+  height: 44px;
+  background: #ffdbdb;
+  border-radius: 6px;
+  padding: 11.5px 16px;
+  font-family: InterRegular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #444444;
+  flex: none;
+  order: 1;
+  align-self: center;
+  margin: 20px 0px;
+}
+
+.delivery_mapping {
+  display: flex;
+  margin-top: 21px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+
+  h5 {
+    font-family: InterRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+  }
+  .delivery__heading {
+    button {
+      border: none;
+      background: #ffffff;
+      font-family: InterRegular;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 140%;
+      letter-spacing: 0.4px;
+      color: #334788;
+      padding-left: 7px;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+  .delivery__edit {
+    margin-left: 140px;
+    a {
+      margin-left: 12px;
+      font-family: InterRegular;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: 0.4px;
+      text-decoration-line: underline;
+      color: #334788;
+    }
+  }
+}
+.adress--data {
+  background: #f9f9fb;
+  border-radius: 8px;
+  padding: 12px;
+  width: 307px;
+  p {
+    font-family: InterRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    letter-spacing: 0.5px;
+    color: #444444;
+    word-break: break-word;
+  }
+  .changed__input {
+    background: #ffffff;
+    border: 1px solid #444444;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 48px;
+    padding: 16px;
+    width: 100%;
+    background-size: 30px 30px;
+  }
+}
+@media (max-width: 576px) {
+  .profile--image_Username {
+    .input-_area {
+      width: 100%;
+    }
+    .borders {
+      width: 100%;
+    }
+  }
+  .borders1 {
+    width: 100%;
+  }
+  .profile--image_Store {
+    .Store__info {
+      textarea {
+        width: 100%;
+      }
+    }
+    .borders {
+      width: 100%;
+    }
+  }
+  .Store__Photo--text {
+    .borders {
+      width: 100%;
+    }
+  }
+}

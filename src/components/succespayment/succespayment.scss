@@ -1,0 +1,50 @@
+@import '../../App.scss';
+.successpaymentcontainer{
+    background: #FFFFFF;
+    opacity: 0.9;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    z-index: 123;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.succes_main{
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 10px rgba(119, 126, 148, 0.15), 0px 0px 10px rgba(119, 126, 148, 0.15);
+    border-radius: 16px;
+    width: 50%;
+    padding:60px 25px;
+}
+
+.succes_text{
+    font-family: 'InterRegular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31.25px;
+    line-height: 150%;
+    letter-spacing: 0.25px;
+    margin-top: 32px;
+    margin-bottom: 66px;
+    color: #228751;
+}
+
+.succes_links{
+    display: flex;
+    justify-content: space-evenly;
+    a{
+        font-family: 'InterRegular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        text-decoration: none;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: #334788;
+    }
+}

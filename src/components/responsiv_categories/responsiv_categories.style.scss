@@ -1,0 +1,28 @@
+@import '../../App.scss';
+.responsive_nav_bottom{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    justify-content: center;
+    &_item{
+        width: 100%;
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: 'InterRegular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        text-decoration: none;
+        line-height: 200%;
+        letter-spacing: 0.5px;
+        color: $text-dark;
+        display: flex;
+        justify-content: space-between;
+    }
+    img{
+        transform: rotate(270deg);
+        height: 5px;
+        position: relative;
+        top: 14px;
+    }
+}

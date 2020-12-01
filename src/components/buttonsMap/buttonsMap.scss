@@ -1,0 +1,119 @@
+@import "../../App.scss";
+
+.btn__map-box{
+
+    .btn__delivery{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        .bord_delivery{
+            border: 1px solid #767676;
+            width: 100%;
+        }
+        button{
+            width: 130px;
+            height: 44px;
+            display: flex;
+            background: #EDEFFF;
+            border: 1.5px solid #6472B8;
+            box-sizing: border-box;
+            border-radius: 8px;
+            padding: 6px 12px;
+            flex-direction: row;
+            outline: none;
+            
+            img{
+                height: 19px;
+                margin: auto;
+                width: 17px;
+                margin-right: 5px;
+            }
+            p{
+                font-family: InterRegular;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 200%;
+                letter-spacing: 0.5px;
+                color: #1A1A1A;
+                flex: none;
+                align-self: center;
+                margin: 4px 0px;
+            }
+        }
+    }
+    .btn__payment{
+        display: flex;
+        align-items: center;
+        button{
+            width: 104px;
+            height: 44px;
+            display: flex;
+            background: #FFFFFF;
+            border-radius: 8px;
+            flex: none;
+            padding: 6px 12px;
+            order: 0;
+            align-self: center;
+            margin: 0px 0px;
+            img{
+                height: 20px;
+                margin: auto;
+                width: 20px;
+                margin-right: 4px;
+                
+            }
+            p{
+                font-family: InterRegular;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 200%;
+                letter-spacing: 0.5px;
+                color: #444444;
+                flex: none;
+                align-self: center;
+                margin: 4px 0px;
+            }
+        }
+    }
+    .btn__order{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        .bord_order{
+            width: 100%;
+            border: 1px solid #CACACA;
+        }
+            button{
+            width: 119px;
+            height: 44px;
+            display: flex;
+            flex-direction: row;
+            padding: 6px 12px;
+            background: #FFFFFF;
+            border-radius: 8px;
+            flex: none;
+            align-self: center;
+            margin: 0px 0px;
+            img{
+                height: 20px;
+                width: 20px;
+                margin: auto;
+                margin-right: 4px;
+            }
+            p{
+                font-family: InterRegular;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 200%;
+                letter-spacing: 0.5px;
+                color: #444444;
+                flex: none;
+                align-self: center;
+                margin: 4px 0px;
+            }
+            }
+    }
+}
